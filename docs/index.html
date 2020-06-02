@@ -2061,6 +2061,7 @@ Western Area Urban
 <li><code>social_media</code>: Number of households with social media as main source of information</li>
 <li><code>word_mouth</code>: Number of households with word of mouth as main source of information</li>
 <li><code>church_or_mosque</code>: Number of households with church or mosque as main source of information</li>
+<li><code>other</code>: Number of households with another main source of information, not already listed</li>
 </ol>
 <p>We export the tibble as a csv:</p>
 <div class="sourceCode" id="cb29"><pre class="sourceCode r"><code class="sourceCode r"><a class="sourceLine" id="cb29-1" title="1"><span class="kw">write_csv</span>(info_district, <span class="kw">file.path</span>(OUTPUT_PATH, INFO_DISTRICT_OUT))</a></code></pre></div>
@@ -2317,7 +2318,7 @@ NA
 </tbody>
 </table>
 <p>We export the tibble as a csv:</p>
-<div class="sourceCode" id="cb32"><pre class="sourceCode r"><code class="sourceCode r"><a class="sourceLine" id="cb32-1" title="1"><span class="kw">write_csv</span>(info_district, <span class="kw">file.path</span>(OUTPUT_PATH, CV_NATIONAL_OUT))</a></code></pre></div>
+<div class="sourceCode" id="cb32"><pre class="sourceCode r"><code class="sourceCode r"><a class="sourceLine" id="cb32-1" title="1"><span class="kw">write_csv</span>(cv_national, <span class="kw">file.path</span>(OUTPUT_PATH, CV_NATIONAL_OUT))</a></code></pre></div>
 </div>
 </article>
 </div>

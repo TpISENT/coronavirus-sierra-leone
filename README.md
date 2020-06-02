@@ -30,7 +30,7 @@ Additionally I include a set of five files with district-by-district mapping (sh
 
 Coronavirus confirmed cases by district `sl_districts_coronavirus.csv`:
 
-1. `date`: Data of reporting.
+1. `date`: Data of reporting
 2. `district`: District of Sierra Leone (based on pre-2017 administrative boundaries)
 3. `confirmed_cases`: Cumulative number of confirmed coronavirus cases; NA if no data reported
 4. `decrease`: Dummy variable indicating whether the number of reported cases has been revised down. NA if no reported cases on that date; 1 if there is a decrease from the last reported cases; 0 otherwise
@@ -77,16 +77,16 @@ Main Sources of Information by district `sl_districts_info_sources.csv`:
 
 Country-wide coronavirus statistics for Sierra Leone `sl_national_coronavirus.csv`:
 
-1. `date`
-2. `new_cases`
-3. `confirmed_cases`
-4. `at_isolation_centres`
-5. `recovered`
-6. `death`
-7. `in_quarantine`
-8. `out_of_quarantine`
-9. `female`
-10. `male`
+1. `date`: Data of reporting
+2. `new_cases`: Number of new coronavirus cases
+3. `confirmed_cases`: Cumulative number of coronavirus cases
+4. `at_isolation_centres`: Number at isolation centres
+5. `recovered`: Number recovered
+6. `death`: Number of deaths
+7. `in_quarantine`: Number in quarantine
+8. `out_of_quarantine`: Number out of quarantine
+9. `female`: (?) Number female
+10. `male`: (?) Number female
 
 ## Note Regarding Districts
 
@@ -98,7 +98,9 @@ To create the data files, I merged the data on the two new districts, Karene and
 
 ## Licence
 
-Data from Open Data Sierra Leone has an open licence. Direct Relief Open Data is publicly available on ArcGIS Hub and does not specify a licence.
+Data from Open Data Sierra Leone has an open licence (see [here](https://opendatasl.gov.sl/dataset/households-main-source-information-district) and [here](https://opendatasl.gov.sl/dataset/population-distribution-district)).
+
+Direct Relief Open Data is publicly available on ArcGIS Hub [without limitations on use](https://www.arcgis.com/sharing/rest/content/items/84382897fc9f46f3932fac0511e622f5/info/metadata/metadata.xml?format=default&output=html).
 
 ## Acknowledgements
 
