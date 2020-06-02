@@ -1,0 +1,519 @@
+date,district,confirmed_cases,decrease
+2020-04-26,Bo,0,0
+2020-04-26,Bombali,1,0
+2020-04-26,Bonthe,0,0
+2020-04-26,Kailahun,0,0
+2020-04-26,Kambia,0,0
+2020-04-26,Kenema,3,0
+2020-04-26,Koinadugu,0,0
+2020-04-26,Kono,0,0
+2020-04-26,Moyamba,0,0
+2020-04-26,Port Loko,6,0
+2020-04-26,Pujehun,0,0
+2020-04-26,Tonkolili,0,0
+2020-04-26,Western Area Rural,15,0
+2020-04-26,Western Area Urban,77,0
+2020-04-27,Bo,0,0
+2020-04-27,Bombali,1,0
+2020-04-27,Bonthe,0,0
+2020-04-27,Kailahun,0,0
+2020-04-27,Kambia,0,0
+2020-04-27,Kenema,3,0
+2020-04-27,Koinadugu,0,0
+2020-04-27,Kono,0,0
+2020-04-27,Moyamba,0,0
+2020-04-27,Port Loko,6,0
+2020-04-27,Pujehun,0,0
+2020-04-27,Tonkolili,0,0
+2020-04-27,Western Area Rural,15,0
+2020-04-27,Western Area Urban,77,0
+2020-04-28,Bo,0,0
+2020-04-28,Bombali,1,0
+2020-04-28,Bonthe,0,0
+2020-04-28,Kailahun,0,0
+2020-04-28,Kambia,0,0
+2020-04-28,Kenema,3,0
+2020-04-28,Koinadugu,0,0
+2020-04-28,Kono,0,0
+2020-04-28,Moyamba,0,0
+2020-04-28,Port Loko,6,0
+2020-04-28,Pujehun,0,0
+2020-04-28,Tonkolili,2,0
+2020-04-28,Western Area Rural,15,0
+2020-04-28,Western Area Urban,77,0
+2020-04-29,Bo,NA,NA
+2020-04-29,Bombali,NA,NA
+2020-04-29,Bonthe,NA,NA
+2020-04-29,Kailahun,NA,NA
+2020-04-29,Kambia,NA,NA
+2020-04-29,Kenema,NA,NA
+2020-04-29,Koinadugu,NA,NA
+2020-04-29,Kono,NA,NA
+2020-04-29,Moyamba,NA,NA
+2020-04-29,Port Loko,NA,NA
+2020-04-29,Pujehun,NA,NA
+2020-04-29,Tonkolili,NA,NA
+2020-04-29,Western Area Rural,NA,NA
+2020-04-29,Western Area Urban,NA,NA
+2020-04-30,Bo,NA,NA
+2020-04-30,Bombali,NA,NA
+2020-04-30,Bonthe,NA,NA
+2020-04-30,Kailahun,NA,NA
+2020-04-30,Kambia,NA,NA
+2020-04-30,Kenema,NA,NA
+2020-04-30,Koinadugu,NA,NA
+2020-04-30,Kono,NA,NA
+2020-04-30,Moyamba,NA,NA
+2020-04-30,Port Loko,NA,NA
+2020-04-30,Pujehun,NA,NA
+2020-04-30,Tonkolili,NA,NA
+2020-04-30,Western Area Rural,NA,NA
+2020-04-30,Western Area Urban,NA,NA
+2020-05-01,Bo,0,0
+2020-05-01,Bombali,6,0
+2020-05-01,Bonthe,10,0
+2020-05-01,Kailahun,0,0
+2020-05-01,Kambia,0,0
+2020-05-01,Kenema,4,0
+2020-05-01,Koinadugu,0,0
+2020-05-01,Kono,0,0
+2020-05-01,Moyamba,0,0
+2020-05-01,Port Loko,7,0
+2020-05-01,Pujehun,0,0
+2020-05-01,Tonkolili,3,0
+2020-05-01,Western Area Rural,19,0
+2020-05-01,Western Area Urban,87,0
+2020-05-02,Bo,0,0
+2020-05-02,Bombali,6,0
+2020-05-02,Bonthe,10,0
+2020-05-02,Kailahun,0,0
+2020-05-02,Kambia,0,0
+2020-05-02,Kenema,5,0
+2020-05-02,Koinadugu,0,0
+2020-05-02,Kono,0,0
+2020-05-02,Moyamba,0,0
+2020-05-02,Port Loko,7,0
+2020-05-02,Pujehun,0,0
+2020-05-02,Tonkolili,3,0
+2020-05-02,Western Area Rural,24,0
+2020-05-02,Western Area Urban,100,0
+2020-05-03,Bo,1,0
+2020-05-03,Bombali,6,0
+2020-05-03,Bonthe,10,0
+2020-05-03,Kailahun,0,0
+2020-05-03,Kambia,0,0
+2020-05-03,Kenema,6,0
+2020-05-03,Koinadugu,0,0
+2020-05-03,Kono,0,0
+2020-05-03,Moyamba,0,0
+2020-05-03,Port Loko,7,0
+2020-05-03,Pujehun,0,0
+2020-05-03,Tonkolili,3,0
+2020-05-03,Western Area Rural,24,0
+2020-05-03,Western Area Urban,100,0
+2020-05-04,Bo,1,0
+2020-05-04,Bombali,7,0
+2020-05-04,Bonthe,10,0
+2020-05-04,Kailahun,0,0
+2020-05-04,Kambia,0,0
+2020-05-04,Kenema,6,0
+2020-05-04,Koinadugu,0,0
+2020-05-04,Kono,0,0
+2020-05-04,Moyamba,0,0
+2020-05-04,Port Loko,7,0
+2020-05-04,Pujehun,0,0
+2020-05-04,Tonkolili,3,0
+2020-05-04,Western Area Rural,25,0
+2020-05-04,Western Area Urban,119,0
+2020-05-05,Bo,1,0
+2020-05-05,Bombali,7,0
+2020-05-05,Bonthe,10,0
+2020-05-05,Kailahun,0,0
+2020-05-05,Kambia,0,0
+2020-05-05,Kenema,10,0
+2020-05-05,Koinadugu,0,0
+2020-05-05,Kono,0,0
+2020-05-05,Moyamba,0,0
+2020-05-05,Port Loko,7,0
+2020-05-05,Pujehun,0,0
+2020-05-05,Tonkolili,3,0
+2020-05-05,Western Area Rural,27,0
+2020-05-05,Western Area Urban,134,0
+2020-05-06,Bo,1,0
+2020-05-06,Bombali,7,0
+2020-05-06,Bonthe,10,0
+2020-05-06,Kailahun,0,0
+2020-05-06,Kambia,0,0
+2020-05-06,Kenema,10,0
+2020-05-06,Koinadugu,0,0
+2020-05-06,Kono,0,0
+2020-05-06,Moyamba,0,0
+2020-05-06,Port Loko,7,0
+2020-05-06,Pujehun,0,0
+2020-05-06,Tonkolili,3,0
+2020-05-06,Western Area Rural,27,0
+2020-05-06,Western Area Urban,160,0
+2020-05-07,Bo,1,0
+2020-05-07,Bombali,7,0
+2020-05-07,Bonthe,10,0
+2020-05-07,Kailahun,0,0
+2020-05-07,Kambia,0,0
+2020-05-07,Kenema,10,0
+2020-05-07,Koinadugu,1,0
+2020-05-07,Kono,0,0
+2020-05-07,Moyamba,0,0
+2020-05-07,Port Loko,7,0
+2020-05-07,Pujehun,0,0
+2020-05-07,Tonkolili,4,0
+2020-05-07,Western Area Rural,29,0
+2020-05-07,Western Area Urban,162,0
+2020-05-08,Bo,2,0
+2020-05-08,Bombali,8,0
+2020-05-08,Bonthe,10,0
+2020-05-08,Kailahun,0,0
+2020-05-08,Kambia,0,0
+2020-05-08,Kenema,10,0
+2020-05-08,Koinadugu,1,0
+2020-05-08,Kono,0,0
+2020-05-08,Moyamba,0,0
+2020-05-08,Port Loko,7,0
+2020-05-08,Pujehun,0,0
+2020-05-08,Tonkolili,4,0
+2020-05-08,Western Area Rural,34,0
+2020-05-08,Western Area Urban,181,0
+2020-05-09,Bo,2,0
+2020-05-09,Bombali,8,0
+2020-05-09,Bonthe,12,0
+2020-05-09,Kailahun,0,0
+2020-05-09,Kambia,0,0
+2020-05-09,Kenema,10,0
+2020-05-09,Koinadugu,1,0
+2020-05-09,Kono,0,0
+2020-05-09,Moyamba,0,0
+2020-05-09,Port Loko,7,0
+2020-05-09,Pujehun,0,0
+2020-05-09,Tonkolili,4,0
+2020-05-09,Western Area Rural,34,0
+2020-05-09,Western Area Urban,213,0
+2020-05-10,Bo,6,0
+2020-05-10,Bombali,8,0
+2020-05-10,Bonthe,12,0
+2020-05-10,Kailahun,0,0
+2020-05-10,Kambia,0,0
+2020-05-10,Kenema,10,0
+2020-05-10,Koinadugu,4,0
+2020-05-10,Kono,0,0
+2020-05-10,Moyamba,0,0
+2020-05-10,Port Loko,8,0
+2020-05-10,Pujehun,0,0
+2020-05-10,Tonkolili,4,0
+2020-05-10,Western Area Rural,34,0
+2020-05-10,Western Area Urban,221,0
+2020-05-11,Bo,11,0
+2020-05-11,Bombali,8,0
+2020-05-11,Bonthe,12,0
+2020-05-11,Kailahun,0,0
+2020-05-11,Kambia,0,0
+2020-05-11,Kenema,10,0
+2020-05-11,Koinadugu,4,0
+2020-05-11,Kono,0,0
+2020-05-11,Moyamba,0,0
+2020-05-11,Port Loko,8,0
+2020-05-11,Pujehun,0,0
+2020-05-11,Tonkolili,4,0
+2020-05-11,Western Area Rural,36,0
+2020-05-11,Western Area Urban,245,0
+2020-05-12,Bo,11,0
+2020-05-12,Bombali,8,0
+2020-05-12,Bonthe,12,0
+2020-05-12,Kailahun,0,0
+2020-05-12,Kambia,0,0
+2020-05-12,Kenema,10,0
+2020-05-12,Koinadugu,4,0
+2020-05-12,Kono,0,0
+2020-05-12,Moyamba,0,0
+2020-05-12,Port Loko,8,0
+2020-05-12,Pujehun,0,0
+2020-05-12,Tonkolili,4,0
+2020-05-12,Western Area Rural,36,0
+2020-05-12,Western Area Urban,245,0
+2020-05-13,Bo,11,0
+2020-05-13,Bombali,9,0
+2020-05-13,Bonthe,12,0
+2020-05-13,Kailahun,2,0
+2020-05-13,Kambia,0,0
+2020-05-13,Kenema,10,0
+2020-05-13,Koinadugu,4,0
+2020-05-13,Kono,0,0
+2020-05-13,Moyamba,0,0
+2020-05-13,Port Loko,8,0
+2020-05-13,Pujehun,0,0
+2020-05-13,Tonkolili,4,0
+2020-05-13,Western Area Rural,36,0
+2020-05-13,Western Area Urban,291,0
+2020-05-14,Bo,11,0
+2020-05-14,Bombali,9,0
+2020-05-14,Bonthe,12,0
+2020-05-14,Kailahun,2,0
+2020-05-14,Kambia,0,0
+2020-05-14,Kenema,10,0
+2020-05-14,Koinadugu,4,0
+2020-05-14,Kono,0,0
+2020-05-14,Moyamba,0,0
+2020-05-14,Port Loko,8,0
+2020-05-14,Pujehun,0,0
+2020-05-14,Tonkolili,4,0
+2020-05-14,Western Area Rural,36,0
+2020-05-14,Western Area Urban,291,0
+2020-05-15,Bo,11,0
+2020-05-15,Bombali,9,0
+2020-05-15,Bonthe,13,0
+2020-05-15,Kailahun,4,0
+2020-05-15,Kambia,0,0
+2020-05-15,Kenema,10,0
+2020-05-15,Koinadugu,4,0
+2020-05-15,Kono,0,0
+2020-05-15,Moyamba,1,0
+2020-05-15,Port Loko,8,0
+2020-05-15,Pujehun,0,0
+2020-05-15,Tonkolili,4,0
+2020-05-15,Western Area Rural,39,0
+2020-05-15,Western Area Urban,344,0
+2020-05-16,Bo,20,0
+2020-05-16,Bombali,9,0
+2020-05-16,Bonthe,13,0
+2020-05-16,Kailahun,4,0
+2020-05-16,Kambia,0,0
+2020-05-16,Kenema,10,0
+2020-05-16,Koinadugu,5,0
+2020-05-16,Kono,0,0
+2020-05-16,Moyamba,1,0
+2020-05-16,Port Loko,8,0
+2020-05-16,Pujehun,0,0
+2020-05-16,Tonkolili,4,0
+2020-05-16,Western Area Rural,38,1
+2020-05-16,Western Area Urban,350,0
+2020-05-17,Bo,22,0
+2020-05-17,Bombali,12,0
+2020-05-17,Bonthe,13,0
+2020-05-17,Kailahun,4,0
+2020-05-17,Kambia,0,0
+2020-05-17,Kenema,24,0
+2020-05-17,Koinadugu,5,0
+2020-05-17,Kono,0,0
+2020-05-17,Moyamba,1,0
+2020-05-17,Port Loko,8,0
+2020-05-17,Pujehun,0,0
+2020-05-17,Tonkolili,4,0
+2020-05-17,Western Area Rural,38,0
+2020-05-17,Western Area Urban,374,0
+2020-05-18,Bo,24,0
+2020-05-18,Bombali,12,0
+2020-05-18,Bonthe,13,0
+2020-05-18,Kailahun,10,0
+2020-05-18,Kambia,0,0
+2020-05-18,Kenema,24,0
+2020-05-18,Koinadugu,5,0
+2020-05-18,Kono,0,0
+2020-05-18,Moyamba,1,0
+2020-05-18,Port Loko,8,0
+2020-05-18,Pujehun,2,0
+2020-05-18,Tonkolili,4,0
+2020-05-18,Western Area Rural,38,0
+2020-05-18,Western Area Urban,378,0
+2020-05-19,Bo,24,0
+2020-05-19,Bombali,13,0
+2020-05-19,Bonthe,13,0
+2020-05-19,Kailahun,10,0
+2020-05-19,Kambia,0,0
+2020-05-19,Kenema,24,0
+2020-05-19,Koinadugu,5,0
+2020-05-19,Kono,0,0
+2020-05-19,Moyamba,4,0
+2020-05-19,Port Loko,8,0
+2020-05-19,Pujehun,2,0
+2020-05-19,Tonkolili,4,0
+2020-05-19,Western Area Rural,45,0
+2020-05-19,Western Area Urban,382,0
+2020-05-20,Bo,24,0
+2020-05-20,Bombali,14,0
+2020-05-20,Bonthe,13,0
+2020-05-20,Kailahun,12,0
+2020-05-20,Kambia,0,0
+2020-05-20,Kenema,24,0
+2020-05-20,Koinadugu,6,0
+2020-05-20,Kono,0,0
+2020-05-20,Moyamba,4,0
+2020-05-20,Port Loko,8,0
+2020-05-20,Pujehun,2,0
+2020-05-20,Tonkolili,4,0
+2020-05-20,Western Area Rural,45,0
+2020-05-20,Western Area Urban,414,0
+2020-05-21,Bo,24,0
+2020-05-21,Bombali,14,0
+2020-05-21,Bonthe,13,0
+2020-05-21,Kailahun,13,0
+2020-05-21,Kambia,0,0
+2020-05-21,Kenema,24,0
+2020-05-21,Koinadugu,6,0
+2020-05-21,Kono,3,0
+2020-05-21,Moyamba,4,0
+2020-05-21,Port Loko,8,0
+2020-05-21,Pujehun,2,0
+2020-05-21,Tonkolili,7,0
+2020-05-21,Western Area Rural,45,0
+2020-05-21,Western Area Urban,422,0
+2020-05-22,Bo,25,0
+2020-05-22,Bombali,14,0
+2020-05-22,Bonthe,13,0
+2020-05-22,Kailahun,14,0
+2020-05-22,Kambia,0,0
+2020-05-22,Kenema,24,0
+2020-05-22,Koinadugu,6,0
+2020-05-22,Kono,3,0
+2020-05-22,Moyamba,5,0
+2020-05-22,Port Loko,12,0
+2020-05-22,Pujehun,2,0
+2020-05-22,Tonkolili,6,1
+2020-05-22,Western Area Rural,46,0
+2020-05-22,Western Area Urban,436,0
+2020-05-23,Bo,25,0
+2020-05-23,Bombali,15,0
+2020-05-23,Bonthe,13,0
+2020-05-23,Kailahun,14,0
+2020-05-23,Kambia,0,0
+2020-05-23,Kenema,24,0
+2020-05-23,Koinadugu,6,0
+2020-05-23,Kono,3,0
+2020-05-23,Moyamba,5,0
+2020-05-23,Port Loko,12,0
+2020-05-23,Pujehun,2,0
+2020-05-23,Tonkolili,6,0
+2020-05-23,Western Area Rural,47,0
+2020-05-23,Western Area Urban,449,0
+2020-05-24,Bo,31,0
+2020-05-24,Bombali,15,0
+2020-05-24,Bonthe,13,0
+2020-05-24,Kailahun,14,0
+2020-05-24,Kambia,1,0
+2020-05-24,Kenema,24,0
+2020-05-24,Koinadugu,6,0
+2020-05-24,Kono,4,0
+2020-05-24,Moyamba,5,0
+2020-05-24,Port Loko,12,0
+2020-05-24,Pujehun,2,0
+2020-05-24,Tonkolili,7,0
+2020-05-24,Western Area Rural,120,0
+2020-05-24,Western Area Urban,467,0
+2020-05-25,Bo,31,0
+2020-05-25,Bombali,15,0
+2020-05-25,Bonthe,14,0
+2020-05-25,Kailahun,17,0
+2020-05-25,Kambia,1,0
+2020-05-25,Kenema,26,0
+2020-05-25,Koinadugu,6,0
+2020-05-25,Kono,4,0
+2020-05-25,Moyamba,5,0
+2020-05-25,Port Loko,12,0
+2020-05-25,Pujehun,2,0
+2020-05-25,Tonkolili,7,0
+2020-05-25,Western Area Rural,121,0
+2020-05-25,Western Area Urban,474,0
+2020-05-26,Bo,40,0
+2020-05-26,Bombali,17,0
+2020-05-26,Bonthe,14,0
+2020-05-26,Kailahun,17,0
+2020-05-26,Kambia,1,0
+2020-05-26,Kenema,27,0
+2020-05-26,Koinadugu,6,0
+2020-05-26,Kono,4,0
+2020-05-26,Moyamba,5,0
+2020-05-26,Port Loko,17,0
+2020-05-26,Pujehun,2,0
+2020-05-26,Tonkolili,7,0
+2020-05-26,Western Area Rural,120,1
+2020-05-26,Western Area Urban,477,0
+2020-05-27,Bo,42,0
+2020-05-27,Bombali,23,0
+2020-05-27,Bonthe,14,0
+2020-05-27,Kailahun,17,0
+2020-05-27,Kambia,1,0
+2020-05-27,Kenema,27,0
+2020-05-27,Koinadugu,6,0
+2020-05-27,Kono,4,0
+2020-05-27,Moyamba,5,0
+2020-05-27,Port Loko,18,0
+2020-05-27,Pujehun,2,0
+2020-05-27,Tonkolili,7,0
+2020-05-27,Western Area Rural,129,0
+2020-05-27,Western Area Urban,487,0
+2020-05-28,Bo,42,0
+2020-05-28,Bombali,23,0
+2020-05-28,Bonthe,14,0
+2020-05-28,Kailahun,17,0
+2020-05-28,Kambia,1,0
+2020-05-28,Kenema,27,0
+2020-05-28,Koinadugu,6,0
+2020-05-28,Kono,4,0
+2020-05-28,Moyamba,5,0
+2020-05-28,Port Loko,18,0
+2020-05-28,Pujehun,2,0
+2020-05-28,Tonkolili,7,0
+2020-05-28,Western Area Rural,129,0
+2020-05-28,Western Area Urban,487,0
+2020-05-29,Bo,42,0
+2020-05-29,Bombali,19,1
+2020-05-29,Bonthe,20,0
+2020-05-29,Kailahun,18,0
+2020-05-29,Kambia,1,0
+2020-05-29,Kenema,29,0
+2020-05-29,Koinadugu,6,0
+2020-05-29,Kono,6,0
+2020-05-29,Moyamba,8,0
+2020-05-29,Port Loko,18,0
+2020-05-29,Pujehun,2,0
+2020-05-29,Tonkolili,7,0
+2020-05-29,Western Area Rural,138,0
+2020-05-29,Western Area Urban,515,0
+2020-05-30,Bo,42,0
+2020-05-30,Bombali,19,0
+2020-05-30,Bonthe,28,0
+2020-05-30,Kailahun,19,0
+2020-05-30,Kambia,1,0
+2020-05-30,Kenema,36,0
+2020-05-30,Koinadugu,7,0
+2020-05-30,Kono,6,0
+2020-05-30,Moyamba,8,0
+2020-05-30,Port Loko,18,0
+2020-05-30,Pujehun,2,0
+2020-05-30,Tonkolili,7,0
+2020-05-30,Western Area Rural,138,0
+2020-05-30,Western Area Urban,521,0
+2020-05-31,Bo,42,0
+2020-05-31,Bombali,19,0
+2020-05-31,Bonthe,28,0
+2020-05-31,Kailahun,19,0
+2020-05-31,Kambia,1,0
+2020-05-31,Kenema,40,0
+2020-05-31,Koinadugu,7,0
+2020-05-31,Kono,6,0
+2020-05-31,Moyamba,10,0
+2020-05-31,Port Loko,18,0
+2020-05-31,Pujehun,2,0
+2020-05-31,Tonkolili,7,0
+2020-05-31,Western Area Rural,138,0
+2020-05-31,Western Area Urban,524,0
+2020-06-01,Bo,42,0
+2020-06-01,Bombali,19,0
+2020-06-01,Bonthe,28,0
+2020-06-01,Kailahun,19,0
+2020-06-01,Kambia,1,0
+2020-06-01,Kenema,40,0
+2020-06-01,Koinadugu,7,0
+2020-06-01,Kono,6,0
+2020-06-01,Moyamba,10,0
+2020-06-01,Port Loko,18,0
+2020-06-01,Pujehun,2,0
+2020-06-01,Tonkolili,7,0
+2020-06-01,Western Area Rural,138,0
+2020-06-01,Western Area Urban,528,0
