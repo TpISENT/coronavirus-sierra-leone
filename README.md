@@ -2,6 +2,8 @@
 
 This repository contains datasets relating to coronavirus in Sierra Leone, as well as on demographic and other information from the 2015 Population and Household Census (PHC).
 
+See [here](https://todowa.github.io/coronavirus-sierra-leone/index.html) for a full description of how the data files have been created from the source data, including the R code.
+
 Last updated: 2 June 2020.
 
 <br/>
@@ -104,7 +106,3 @@ All the data have been extracted from public sources:
 * The Ministry of Information and Communication of Sierra Leone, [covid19.mic.gov.sl](https://covid19.mic.gov.sl) dashboard for all statistics relating to coronavirus.
 * [Open Data Sierra Leone](https://opendatasl.gov.sl/dataset/population-distribution-district) and indirectly [Statistics Sierra Leone](https://www.statistics.sl/index.php/census/census-2015.html) for the 2015 Population and Household Census (PHC) data.
 * [Direct Relief Open Data](https://hub.arcgis.com/datasets/DirectRelief::sierre-leone-districts) on ArcGIS Hub for the shapefiles.
-
-## Further Information
-
-See [here](https://todowa.github.io/coronavirus-sierra-leone/index.html) for a full description of how the data files have been created from the source data, including the R code used to do so.
