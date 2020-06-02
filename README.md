@@ -97,7 +97,7 @@ To create the data files, I merged the data on the two new districts, Karene and
 
 ## Licence
 
-Data from Open Data Sierra Leone has an open licence.
+Data from Open Data Sierra Leone has an open licence. Direct Relief Open Data is publicly available on ArcGIS Hub, but does not specify a licence.
 
 ## Acknowledgements
 
