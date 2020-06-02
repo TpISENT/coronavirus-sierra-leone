@@ -12,7 +12,7 @@ The novel 2019 coronavirus (covid-19) arrived late to West Africa and Sierra Leo
 
 ## Content
 
-The dataset consists of four main files, which are in the `output` folder. Additionally I include all mapping-related files, unchanged from the original source, each labelled `sl_districts_mapping.*`. See the column descriptions below for further details.
+The dataset consists of four main files, which are in the `output` folder. See the column descriptions below for further details.
 
 1. **Coronavirus confirmed cases by district** (`sl_districts_coronavirus.csv`). I found the original data by looking in the `static/js/data` folder in the source code for [covid19.mic.gov.sl](https://covid19.mic.gov.sl), last accessed 2 June 2020. The file contains the cumulative number of confirmed coronavirus cases in the 14 districts of Sierra Leone as a time series. I have used the R tidyverse to reshape the data and ensure naming is consistent with the other data files.
 
@@ -21,6 +21,8 @@ The dataset consists of four main files, which are in the `output` folder. Addit
 3. **Main Sources of Information by district** (`sl_districts_info_sources.csv`). Data from the 2015 Population and Housing Census (PHC), sourced from [Open Data Sierra Leone](https://opendatasl.gov.sl/dataset/households-main-source-information-district). The dataset presents the main sources of information, such as television or radio, for households in the 14 districts of Sierra Leone. Last accessed 2 June 2020. I note that I have made one correction to the source data (see R code with correction [here](https://todowa.github.io/coronavirus-sierra-leone/index.html)).
 
 4. **Country-wide coronavirus statistics for Sierra Leone** (`sl_national_coronavirus.csv`). The original data also comes from [covid19.mic.gov.sl](https://covid19.mic.gov.sl), last accessed 2 June 2020. The file contains numerous statistics as time series, listed in the Column Description section below. I note that there are various potential issues in the file which I leave the user to decide how to deal with (duplicate datetimes, inconsistent statistics).
+
+Additionally I include a set of five files with district-by-district mapping (shapefiles) and other data, unchanged from the original source, each labelled `sl_districts_mapping.*`. These files come from [Direct Relief Open Data](https://hub.arcgis.com/datasets/DirectRelief::sierre-leone-districts) on ArcGIS Hub. The data includes maternal child health attributes by district, which was the original purpose of the data.
 
 ## Column Descriptions
 
