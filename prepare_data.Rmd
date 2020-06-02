@@ -336,6 +336,7 @@ We have the following columns:
 10. `social_media`: Number of households with social media as main source of information
 11. `word_mouth`: Number of households with word of mouth as main source of information
 12. `church_or_mosque`: Number of households with church or mosque as main source of information
+13. `other`: Number of households with another main source of information, not already listed
 
 We export the tibble as a csv:
 ```{r}
@@ -373,7 +374,7 @@ cv_national %>% head() %>% kable() %>% kable_styling(full_width=F, font_size=11)
 
 We export the tibble as a csv:
 ```{r}
-write_csv(info_district, file.path(OUTPUT_PATH, CV_NATIONAL_OUT))
+write_csv(cv_national, file.path(OUTPUT_PATH, CV_NATIONAL_OUT))
 ```
 
 

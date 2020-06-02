@@ -73,6 +73,7 @@ Main Sources of Information by district `sl_districts_info_sources.csv`:
 10. `social_media`: Number of households with social media as main source of information
 11. `word_mouth`: Number of households with word of mouth as main source of information
 12. `church_or_mosque`: Number of households with church or mosque as main source of information
+13. `other`: Number of households with another main source of information, not already listed
 
 Country-wide coronavirus statistics for Sierra Leone `sl_national_coronavirus.csv`:
 
