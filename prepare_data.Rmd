@@ -1,7 +1,7 @@
 ---
 title: "Compiling data on the novel coronavirus (covid-19) in Sierra Leone"
 author: "Tom Dorrington Ward"
-date: "2 June 2020"
+date: "Last update: 10 June 2020"
 output:
   prettydoc::html_pretty:
     theme: leonids
@@ -21,12 +21,12 @@ This notebook describes the steps taken to compile data relating to coronavirus 
 
 It performs only a very limited number of operations to *change* the data:
 
-* It does not make any making assumptions to fill in missing values.
-* It corrects only *one* values which appear to be incorrect. As the section [District-Level Main Source of Information Data] illustrates, the total number of households in Western Area Urban in the sources of information data is missing a final "1", and should be "229951" instead of "22995".
+* It does not make any assumptions to fill in missing values.
+* It corrects only *one* value which appears to be incorrect. As the section [District-Level Main Source of Information Data] illustrates, the total number of households in Western Area Urban in the sources of information data is missing a final "1", and should be "229951" instead of "22995".
 
 There are several other anomalies, such as *downward*  revisions to the cumulative number of cases and, for the country-level data, duplicate date-time stamps and inconsistencies between different statistical series. I leave the user of the data to decide how to resolve these issues in their analysis.
 
-For this notebook, we use R and the [tidyverse](https://www.tidyverse.org/) collection of packages to produce datasets in "tidy" format for immediate use in data visualisation and analysis.
+For this notebook, I use R and the [tidyverse](https://www.tidyverse.org/) collection of packages to produce datasets for use in data visualisation and analysis.
 
 ![Bo, Sierra Leone.<br/>*Photo credit:* [Joshua Hanson/Unsplash.com](https://unsplash.com/s/photos/bo%2C-sierra-leone)](https://images.unsplash.com/photo-1534471109-33fbc90d77d2?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1269&q=80)
 
@@ -69,13 +69,13 @@ CV_NATIONAL_OUT <- "sl_national_coronavirus.csv"
 
 The source datasets are:
 
-**1. Coronavirus Cumulative Confirmed Cases at the District Level** ("districts.beade2ed.csv", last accessed 2 June 2020). I found the address of this file by looking in the `static/js/data` folder in the source code for [covid19.mic.gov.sl](https://covid19.mic.gov.sl). The file contains the cumulative number of confirmed coronavirus cases in each of the 16 districts in Sierra Leone as a time series, where some dates are missing.
+**1. Coronavirus Cumulative Confirmed Cases at the District Level** ("districts.beade2ed.csv", last accessed 10 June 2020). I found the address of this file by looking in the `static/js/data` folder in the source code for [covid19.mic.gov.sl](https://covid19.mic.gov.sl). The file contains the cumulative number of confirmed coronavirus cases in each of the 16 districts in Sierra Leone as a time series, where some dates are missing.
   
 ```{r, message=F}
 read_csv(file.path(INPUT_PATH, CV_DISTRICT)) %>% head() %>% kable() %>% kable_styling(full_width=F, font_size = 11)
 ```
 
-**2. Coronavirus at the Country Level** ("stats.e46e07fd.csv", last accessed 2 June 2020). As for the previous dataset, I found the address of this file by looking in the `static/js/data` folder in the source code for [covid19.mic.gov.sl](https://covid19.mic.gov.sl). This file contains numerous statistics relating to coronavirus, each as a time series with missing dates. It includes:
+**2. Coronavirus at the Country Level** ("stats.e46e07fd.csv", last accessed 10 June 2020). As for the previous dataset, I found the address of this file by looking in the `static/js/data` folder in the source code for [covid19.mic.gov.sl](https://covid19.mic.gov.sl). This file contains numerous statistics relating to coronavirus, each as a time series with missing dates. It includes:
 
 * The number of new cases (`new case`)
 * The cumulative number of confirmed cases (`confirmed cases`)
@@ -86,7 +86,7 @@ read_csv(file.path(INPUT_PATH, CV_DISTRICT)) %>% head() %>% kable() %>% kable_st
 * The number of females (`female`), presumably confirmed cases though this is unclear
 * The number of males (`male`), presumably confirmed cases though this is unclear
 
-I note that at the start of the period the data are not reliable, since the total number of confirmed cases decreases before increasing again. There are duplicate date entries and there also appear to be inconsistencies between the different statistics, for instance `female` + `male` does not always equal `confirmed cases`.
+I note that at the start of the period the data are not reliable, since the total number of confirmed cases decreases before increasing again. There are duplicate date entries and there also appear to be inconsistencies between the different statistics, for instance `female` + `male` does not equal `confirmed cases`.
 
 ```{r, message=F}
 read_csv(file.path(INPUT_PATH, CV_NATIONAL)) %>% head() %>% kable() %>% kable_styling(full_width=F, font_size=11)
@@ -99,7 +99,7 @@ read_csv(file.path(INPUT_PATH, CV_NATIONAL)) %>% head() %>% kable() %>% kable_st
 read_csv(file.path(INPUT_PATH, POP_DISTRICT)) %>% head() %>% kable() %>% kable_styling(full_width=F, font_size = 11)
 ```
 
-**4. Main Source of Information at the District Level:** Data from the 2015 Population and Housing Census (PHC), sourced from [Open Data Sierra Leone](https://opendatasl.gov.sl/dataset/households-main-source-information-district). The dataset presents the main sources of information, such as television or radio, for households in the 14 districts of Sierra Leone. Last accessed 2 June 2020.
+**4. Main Source of Information at the District Level:** Data from the 2015 Population and Housing Census (PHC), sourced from [Open Data Sierra Leone](https://opendatasl.gov.sl/dataset/households-main-source-information-district). The dataset presents the main sources, such as television or radio, by which households in the 14 districts of Sierra Leone receive their information. Last accessed 10 June 2020.
 
 ```{r, message=F}
 read_csv(file.path(INPUT_PATH, INFO_DISTRICT)) %>% head() %>% kable() %>% kable_styling(full_width=F, font_size = 11)
@@ -109,16 +109,16 @@ read_csv(file.path(INPUT_PATH, INFO_DISTRICT)) %>% head() %>% kable() %>% kable_
 
 In the `output` folder I provide mapping data as shapefiles for 14 geographical districts from [ArcGIS Hub](https://hub.arcgis.com/datasets/DirectRelief::sierre-leone-districts). The data was last updated 29 November 2016 and was originally used to map the districts of Sierra Leone with maternal child health attributes.
 
-The same mapping data may instead be accessed in GeoJSON format using the ArcGIS Hub [APIs](https://hub.arcgis.com/datasets/DirectRelief::sierre-leone-districts) on the dataset's web page. I use the GeoJSON data to [interactively map coronavirus by district using D3.js](https://observablehq.com/@todowa/coronavirus-covid-19-in-sierra-leone).
+The same mapping data may instead be accessed in GeoJSON format using the [APIs](https://hub.arcgis.com/datasets/DirectRelief::sierre-leone-districts) on the dataset's ArcGIS Hub web page. I use the GeoJSON data to [interactively map coronavirus by district using D3.js](https://observablehq.com/@todowa/coronavirus-covid-19-in-sierra-leone).
 
 
 # Compiling Coronavirus and Demographic Data at the District Level
 
 ## Important Note regarding the Number of Districts
 
-In 2017 Sierra Leone redrew its administrative boundaries, splitting two districts into two and raising the total number of districts from 14 to 16 (illustrated [here](https://opendatasl.gov.sl/gis-mapping-application-0)). The district-level coronavirus data includes information on 16 districts, whilst the demographics data and map data is only available for the 14 districts.
+In 2017 Sierra Leone redrew its administrative boundaries, splitting two districts in half and raising the total number of districts from 14 to 16 (illustrated [here](https://opendatasl.gov.sl/gis-mapping-application-0)). The district-level coronavirus data includes information on 16 districts, whilst the demographics data and map data is only available for the 14 districts.
 
-Although Open Data Sierra Leone explains that it has [re-analysed demographics data](https://opendatasl.gov.sl/dataset/re-analysis-2015-population-census-data-16-districts-5-regions) to accommodate the 16 districts, no data files accompany the discussion. I note that there is a PDF [report](https://www.statistics.sl/images/StatisticsSL/Documents/Census/2015/sierraleone_-2015_population_census_data_for_16_districts_5_regions.pdf) on the Statistics Sierra Leone website from which some though not all reanalysed demographics data can be scraped. I leave this for future work.
+Although Open Data Sierra Leone explains that it has [re-analysed demographics data](https://opendatasl.gov.sl/dataset/re-analysis-2015-population-census-data-16-districts-5-regions) to accommodate the 16 districts, no data files accompany the discussion. I note that there is a PDF [report](https://www.statistics.sl/images/StatisticsSL/Documents/Census/2015/sierraleone_-2015_population_census_data_for_16_districts_5_regions.pdf) on the Statistics Sierra Leone website from which some, though not all, reanalysed demographics data can be scraped. I leave this for future work.
 
 In what follows, I merge the data on the two new districts, Karene and Falaba, back into their old districts of Bombali and Koinadugu respectively.
 
@@ -147,7 +147,7 @@ cv_district <- cv_district %>%
 cv_district <- cv_district %>% mutate(date = make_date(year(date), month(date), day(date)))
 ```
 
-We graph the number of cases by district:
+I graph the number of cases by district. For a long time, only the two Western Areas were distinct from the other areas. Since the last update to this analysis, the number of cases in Kenema has now risen sufficiently to distinguish itself from other districts:
 
 ```{r, fig.align='center'}
 # Amend ggplot2 theme
@@ -174,7 +174,7 @@ cv_district %>% mutate(district = factor(district)) %>% ggplot(aes(date, confirm
   theme_parts
 ```
 
-We quickly perform some checks to ensure that the dataset makes sense:
+I quickly perform some checks to ensure that the dataset makes sense:
 
 ```{r}
 dup <- cv_district %>% group_by(date, district) %>% count() %>% pull(n)
@@ -219,7 +219,7 @@ cv_district <- cv_district %>%
   ungroup()
 ```
 
-We expand the time series to include all dates between the first and last recorded date, even those on which no data are reported:
+I expand the time series to include all dates between the first and last recorded date, even those on which no data are reported:
 
 ```{r}
 # Create tibble for full period for which data on cases are available
@@ -229,10 +229,10 @@ cv_district <- expand_grid(date = seq(min(cv_district$date), max(cv_district$dat
 
 We end up with a tibble with 4 different columns:
 
-* `date`: Data of reporting.
+* `date`: Date of reporting.
 * `district`: District of Sierra Leone (based on pre-2017 administrative boundaries)
 * `confirmed_cases`: Cumulative number of confirmed coronavirus cases; NA if no data reported
-* `decrease`: Dummy variable indicating whether the number of reported cases has been revised down. NA if no reported cases on that date; 1 if there is a decrease from the last reported cases; 0 otherwise
+* `decrease`: Dummy variable indicating whether the number of reported cases has been revised downwards. NA if no reported cases on that date; 1 if there is a decrease from the last reported cases; 0 otherwise
 
 Finally, we export the tibble as a csv:
 ```{r}
@@ -302,7 +302,7 @@ info_district <- info_district %>% gather(stat, value, -c(District, `D Code`, `C
   select(district, d_code, d_id, total_household, radio, television, print_media, post_mail, hand_mail, social_media, word_mouth, church_or_mosque, other)
 ```
 
-We confirm that the 14 `district`, `d_code` and `d_id` match those in the demographics dataset.
+I confirm that the 14 `district`, `d_code` and `d_id` match those in the demographics dataset.
 
 ```{r}
 test <- info_district %>% select(district, d_code, d_id) %>% left_join(pop_district %>% select("district", "d_code", "d_id"), by = "district") %>% mutate(check = d_code.x == d_code.y & d_id.x == d_id.y) %>% pull(check) %>% sum() == 14
@@ -310,7 +310,7 @@ cat("`district`, `d_code` and `d_id` match in the demographics and information s
 rm("test")
 ```
 
-We check that the total number of households matches the sum across the different sources of information:
+I check that the total number of households matches the sum across the different sources of information:
 
 ```{r}
 info_district %>% mutate(total_household_check = radio + television + print_media + post_mail + hand_mail + social_media + word_mouth + church_or_mosque + other) %>% mutate(check = total_household_check - total_household) %>% select(district, total_household, total_household_check, check) %>% kable() %>% kable_styling(full_width=F, font_size=11)
